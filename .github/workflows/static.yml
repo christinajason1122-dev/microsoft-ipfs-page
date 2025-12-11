@@ -1,0 +1,7 @@
+<p>Contact: #[[-Email-]]</p>
+<script>
+  document.body.innerHTML = document.body.innerHTML.replace(
+    '#[[-Email-]]',
+    'contact@microsoft.com'
+  );
+</script>
